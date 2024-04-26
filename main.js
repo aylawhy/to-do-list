@@ -1,7 +1,7 @@
 // Cute To-Do List JS
 // Created by Ayla Y.
 // A to-do list formatted in the style of The Oatmeal. A fun way to experiment with JavaScript and CSS.
-
+document.addEventListener('DOMContentLoaded', () => {
 // Create empty array to store tasks in
 const taskList = [];
 
@@ -45,3 +45,4 @@ seeTasksButton.onclick = () => {
       seeTasksButton.textContent = taskList.join(', ');
     }
 }
+};
